@@ -12,6 +12,22 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    {% if page.cv_pdf %}
+      <p>
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-sm btn-outline-primary"
+        >
+          <i class="fa-solid fa-file-pdf"></i> Download CV
+        </a>
+      </p>
+    {% endif %}
   </header>
 
   <article>
