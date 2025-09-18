@@ -197,6 +197,8 @@ exclude:
   - _includes/repository
   # Removing teaching page
   - _pages/teaching.md
+  # Removing peoples page
+  - _pages/profiles.md
 
 keep_files:
   - CNAME
