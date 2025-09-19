@@ -203,7 +203,9 @@ exclude:
   # Removing blog page
   - _posts/
   - _pages/blog.md
-  
+  # Removing project template files
+  - _projects/default_templates
+
 keep_files:
   - CNAME
   - .nojekyll
