@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: ECE @ CMU · Pittsburgh, PA, USA · Dubai, UAE · Curious, hands-on, shipping real things
 
 profile:
   align: right
