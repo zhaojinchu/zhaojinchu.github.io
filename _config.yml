@@ -200,7 +200,10 @@ exclude:
   - _pages/profiles.md
   # Removing dropdown button
   - _pages/dropdown.md
-
+  # Removing blog page
+  - _posts/
+  - _pages/blog.md
+  
 keep_files:
   - CNAME
   - .nojekyll
