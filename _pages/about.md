@@ -30,4 +30,4 @@ latest_posts:
 
 Hi! I’m Zhaojin, an Electrical & Computer Engineering student at Carnegie Mellon who learns best by building. I’m most at home where hardware meets software — embedded systems, digital design, and applied ML. I follow my curiosity and pick up whatever I need to move ideas forward. I enjoy collaborating with thoughtful teams and am open to project, research, or internship opportunities.
 
-<a href="https://www.youtube.com/@ZhaojinChuMusic">I perform both classical piano and viola</a>(ARSM; DCSO second chair; NYO Dubai section co-lead) and play tennis. I also love coffee. My setup: V60 and Baratza Encore. Always happy to talk coffee over coffee.
+<a href="https://www.youtube.com/@ZhaojinChuMusic">I perform both classical piano and viola</a> (ARSM; DCSO second chair; NYO Dubai section co-lead) and play tennis. I also love coffee. My setup: V60 and Baratza Encore. Always happy to talk coffee over coffee.

@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Zhaojin Chu (褚昭锦)",
-    "label": "ECE Student & Builder",
     "image": "",
     "email": "zhaojinc@andrew.cmu.edu",
     "phone": "+1 (412) 657-5072",
@@ -17,10 +16,7 @@
     "profiles": [
       { "network": "LinkedIn", "username": "zhaojinc", "url": "https://www.linkedin.com/in/zhaojinc/" },
       { "network": "GitHub", "username": "zhaojinchu", "url": "https://github.com/zhaojinchu" }
-    ],
-    "custom": {
-      "phoneAlt": "+971 58 188 6719"
-    }
+    ]
   },
   "work": [
     {
@@ -34,6 +30,19 @@
         "Launched full-stack storefront with secure Stripe checkout",
         "Designed kit curriculum and teaching materials",
         "Ran campus workshops and gathered structured feedback"
+      ]
+    },
+    {
+      "organization": "Computer Science Academic Enrichment & Top University Preparation (TopUP), Dubai College",
+      "position": "Teacher & Course Organizer",
+      "location": "Dubai, UAE",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2024-08-01",
+      "summary": "Co-created computer lab resources; taught enrichment sessions for advanced CS students.",
+      "highlights": [
+        "Taught highly advanced class of 8 students",
+        "Planned, organized, and collaborated with the Computer Science Department to implement a semester long course"
       ]
     },
     {
@@ -68,15 +77,6 @@
       "startDate": "2021-11-01",
       "endDate": "2022-02-01",
       "summary": "Assisted with animal care at a local shelter."
-    },
-    {
-      "organization": "Computer Science Academic Enrichment & Top University Preparation (TopUP), Dubai College",
-      "position": "Teacher & Course Organizer",
-      "location": "Dubai, UAE",
-      "url": "",
-      "startDate": "2023-01-01",
-      "endDate": "2024-08-01",
-      "summary": "Co-created computer lab resources; taught enrichment sessions for advanced CS students."
     }
   ],
   "education": [
@@ -139,12 +139,6 @@
   "languages": [
     { "language": "English", "fluency": "Bilingual" },
     { "language": "Chinese", "fluency": "Native" }
-  ],
-  "interests": [
-    { "name": "Music", "keywords": ["Piano", "Viola", "Ensemble performance", "Soundtrack composition"] },
-    { "name": "Tennis", "keywords": ["Singles", "Doubles", "Varsity"] },
-    { "name": "Coffee", "keywords": ["V60", "Baratza Encore", "Pour-over"] },
-    { "name": "Philosophy", "keywords": ["Epistemology", "Ethics", "Aesthetics"] }
   ],
   "references": [],
   "projects": [
