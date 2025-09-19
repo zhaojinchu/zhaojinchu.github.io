@@ -7,7 +7,7 @@ subtitle: ECE @ CMU · Pittsburgh, PA, USA & Dubai, UAE · Curious, hands-on, sh
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Carnegie Mellon University</p>
     <p>5032 Forbes Avenue</p>
