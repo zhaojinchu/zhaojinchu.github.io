@@ -73,9 +73,9 @@ ninja.data = [{
           description: "CPU Architecture at Northwestern University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-custom-8-bit-cpu",
-          title: 'Custom 8-bit CPU',
-          description: "CPU Architecture at Northwestern University",
+            },},{id: "projects-logic-lab-courses",
+          title: 'Logic Lab Courses',
+          description: "Transistors to Logic Gates",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
