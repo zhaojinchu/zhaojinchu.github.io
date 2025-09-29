@@ -12,6 +12,9 @@ profile:
     <p>Carnegie Mellon University</p>
     <p>5032 Forbes Avenue</p>
     <p>Pittsburgh, PA 15213</p>
+  width: 360
+  max_height: "520px"
+  min_width: "40%"
 
 cv_pdf: example_pdf.pdf
 selected_papers: false # includes a list of papers marked as "selected={true}"

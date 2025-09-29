@@ -46,6 +46,9 @@ layout: default
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
+            width=page.profile.width height=page.profile.height
+            max-width=page.profile.max_width max-height=page.profile.max_height
+            min-width=page.profile.min_width min-height=page.profile.min_height
           %}
         {% endif %}
         {% if page.profile.more_info %}
