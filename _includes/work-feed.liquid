@@ -1,0 +1,114 @@
+{% assign config = include.config %}
+{% assign limit = config.limit | default: 6 %}
+{% assign date_format = config.date_format | default: '%b %Y' %}
+{% assign include_projects = config.include_projects %}
+{% assign include_research = config.include_research %}
+{% if include_projects == nil %}
+  {% assign include_projects = true %}
+{% endif %}
+{% if include_research == nil %}
+  {% assign include_research = true %}
+{% endif %}
+{% assign items = '' | split: '' %}
+{% assign padding_number = 9999999999 %}
+
+{% if include_projects %}
+  {% for project in site.projects %}
+    {% if project.profile_date %}
+      {% assign importance = project.profile_importance | default: 5 | plus: 0 %}
+      {% assign importance_str = '000' | append: importance %}
+      {% assign importance_str = importance_str | slice: -3, 3 %}
+
+      {% assign timestamp = project.profile_date | date: '%s' | plus: 0 %}
+      {% assign inverted_timestamp = padding_number | minus: timestamp %}
+      {% assign timestamp_str = '0000000000' | append: inverted_timestamp %}
+      {% assign timestamp_str = timestamp_str | slice: -10, 10 %}
+
+      {% assign title = project.title | replace: '|', '∣' %}
+      {% assign summary_source = project.profile_summary | default: project.description %}
+      {% assign summary_text = summary_source | markdownify | strip_html | strip_newlines | replace: '|', '∣' %}
+      {% assign label = project.profile_label | default: 'Project' | replace: '|', '∣' %}
+      {% assign date_display = project.profile_date | date: date_format %}
+
+      {% if project.redirect %}
+        {% assign url_value = project.redirect %}
+      {% else %}
+        {% assign url_value = project.url | relative_url %}
+      {% endif %}
+      {% assign url_value = url_value | replace: '|', '%7C' %}
+
+      {% capture entry %}{{ importance_str }}|{{ timestamp_str }}|project|{{ title }}|{{ summary_text }}|{{ url_value }}|{{ date_display }}|{{ label }}{% endcapture %}
+      {% assign entry = entry | strip %}
+      {% assign items = items | push: entry %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if include_research %}
+  {% for research in site.data.research %}
+    {% if research.profile_date %}
+      {% assign importance = research.profile_importance | default: 5 | plus: 0 %}
+      {% assign importance_str = '000' | append: importance %}
+      {% assign importance_str = importance_str | slice: -3, 3 %}
+
+      {% assign timestamp = research.profile_date | date: '%s' | plus: 0 %}
+      {% assign inverted_timestamp = padding_number | minus: timestamp %}
+      {% assign timestamp_str = '0000000000' | append: inverted_timestamp %}
+      {% assign timestamp_str = timestamp_str | slice: -10, 10 %}
+
+      {% assign title = research.title | replace: '|', '∣' %}
+      {% assign summary_text = research.profile_summary | markdownify | strip_html | strip_newlines | replace: '|', '∣' %}
+      {% assign label = research.label | default: 'Research' | replace: '|', '∣' %}
+      {% assign date_display = research.profile_date | date: date_format %}
+
+      {% assign url_value = research.url %}
+      {% if url_value %}
+        {% unless url_value contains '://' %}
+          {% assign url_value = url_value | relative_url %}
+        {% endunless %}
+        {% assign url_value = url_value | replace: '|', '%7C' %}
+      {% endif %}
+
+      {% capture entry %}{{ importance_str }}|{{ timestamp_str }}|research|{{ title }}|{{ summary_text }}|{{ url_value }}|{{ date_display }}|{{ label }}{% endcapture %}
+      {% assign entry = entry | strip %}
+      {% assign items = items | push: entry %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign sorted_items = items | sort %}
+
+{% if sorted_items == empty %}
+  <p class="text-muted">Nothing to show yet.</p>
+{% else %}
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless align-middle mb-0">
+      <tbody>
+        {% for entry in sorted_items limit: limit %}
+          {% assign parts = entry | split: '|' %}
+          {% assign date_display = parts[6] %}
+          {% assign type_label = parts[7] | replace: '∣', '|' %}
+          {% assign title = parts[3] | replace: '∣', '|' %}
+          {% assign summary = parts[4] | replace: '∣', '|' %}
+          {% assign url_value = parts[5] %}
+          <tr>
+            <th scope="row" class="text-nowrap" style="width: 18%">{{ date_display }}</th>
+            <td>
+              {% if config.show_badges != false %}
+                <span class="badge badge-light text-uppercase mr-1">{{ type_label }}</span>
+              {% endif %}
+              {% if url_value and url_value != '' %}
+                <a class="work-feed-title" href="{{ url_value }}">{{ title }}</a>
+              {% else %}
+                {{ title }}
+              {% endif %}
+              {% if summary != '' %}
+                <div class="text-muted small mt-1">{{ summary }}</div>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}

@@ -59,6 +59,15 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.featured_feed and page.featured_feed.enabled %}
+      <section class="profile-feed mt-4">
+        {% if page.featured_feed.title %}
+          <h2>{{ page.featured_feed.title }}</h2>
+        {% endif %}
+        {% include work-feed.liquid config=page.featured_feed %}
+      </section>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

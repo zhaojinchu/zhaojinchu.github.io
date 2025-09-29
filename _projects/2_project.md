@@ -6,6 +6,9 @@ img: assets/img/2.jpg
 importance: 2
 category: work
 related_publications: false
+profile_date: 2024-09-01
+profile_importance: 1
+profile_summary: Built Logic Labs curriculum and electronics kits, integrating the program into Dubai College's GCSE track.
 ---
 
 Building the first practical hands-on course for future Dubai College students. To be integrated into the GCSE curriculum with the support of the Head of Computer Science, Mr. Wood, in the form of an online course with hours of content.

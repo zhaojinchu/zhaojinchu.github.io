@@ -20,6 +20,14 @@ cv_pdf: example_pdf.pdf
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+featured_feed:
+  enabled: true
+  title: Work & Research Highlights
+  limit: 6
+  include_projects: true
+  include_research: true
+  show_badges: true
+
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
