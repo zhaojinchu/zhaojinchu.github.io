@@ -13,7 +13,7 @@ profile:
     <p>5032 Forbes Avenue</p>
     <p>Pittsburgh, PA 15213</p>
   width: 50
-  max_height: "250px"
+  max_height: "300px"
   min_width: "10%"
 
 cv_pdf: example_pdf.pdf
