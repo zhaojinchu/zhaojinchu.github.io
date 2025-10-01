@@ -73,9 +73,9 @@ ninja.data = [{
           description: "CPU Architecture at Northwestern University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-logic-lab-courses",
-          title: 'Logic Lab Courses',
-          description: "Transistors to Logic Gates",
+            },},{id: "projects-logic-labs-transistors-to-logic-gates",
+          title: 'Logic Labs - Transistors to Logic Gates',
+          description: "The first interative, hands-on hardware kit for high school students made by Logic Labs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-switcherooni-light-switcher",
@@ -88,6 +88,26 @@ ninja.data = [{
           description: "Full-stack storefront for Logic Labs STEM kits, powered by Supabase + Stripe and deployed on Oracle Cloud.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-musbook-teaching-platform",
+          title: 'MusBook Teaching Platform',
+          description: "Scheduling, messaging, and automation suite for music tuition teams built on Django + Channels.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-vanilla-license-plate-cnn",
+          title: 'Vanilla License Plate CNN',
+          description: "Research sandbox for lightweight PyTorch detectors localizing license plates with custom data tooling.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-yolov5-license-plate-recognition",
+          title: 'YOLOv5 License Plate Recognition',
+          description: "End-to-end license plate detection and OCR pipeline powered by YOLOv5 and Fast Plate OCR.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-body-measurement-predictor",
+          title: 'Body Measurement Predictor',
+          description: "PyTorch regression model and Tkinter app forecasting physique changes after weight adjustments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
             },},{
         id: 'social-email',
         title: 'email',
