@@ -3,7 +3,7 @@ layout: page
 title: Switcherooni Light Switcher
 description: An automatic light switch flicker, controlled over bluetooth
 img: assets/img/3.jpeg
-importance: 2
+importance: 3
 category: fun
 related_publications: false
 profile_date: 2025-09-12
@@ -23,13 +23,12 @@ Used direct 5V from ESP32 board (not recommended) and powered using a micro-usb 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/3.2.gif" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/3.2.gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Switcherooni Mk1 demo video.
 </div>
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

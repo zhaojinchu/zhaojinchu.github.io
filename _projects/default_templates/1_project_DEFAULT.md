@@ -1,11 +1,14 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
+title: title
+description: description
+img: assets/img/1.jpg
+importance: 2
 category: work
-related_publications: true
+related_publications: false
+profile_date: 2024-07-15
+profile_importance: 2
+profile_summary: summary
 ---
 
 Every project has a beautiful feature showcase page.
