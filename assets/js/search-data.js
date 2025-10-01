@@ -78,6 +78,11 @@ ninja.data = [{
           description: "Transistors to Logic Gates",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-switcherooni-light-switcher",
+          title: 'Switcherooni Light Switcher',
+          description: "An automatic light switch flicker, controlled over bluetooth",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
