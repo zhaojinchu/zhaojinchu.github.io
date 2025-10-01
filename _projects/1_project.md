@@ -3,11 +3,11 @@ layout: page
 title: Custom 8-bit CPU
 description: CPU Architecture at Northwestern University
 img: assets/img/1.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
-profile_date: 2024-07-15
-profile_importance: 2
+profile_date: 2023-07-15
+profile_importance: 3
 profile_summary: Designed and fabricated an 8-bit CPU with custom ISA, control logic, and assembly tooling during a CTD Northwestern residency.
 ---
 
@@ -36,4 +36,3 @@ Three weeks, a bench full of discrete logic, and a mandate to understand compute
     Control-unit schematic driving instruction sequencing and bus arbitration.
 </div>
 
-Next up: port the design into CPLDs for a compact Mk2 and explore microcode tweaks that unlock multiply/divide instructions.

@@ -6,7 +6,7 @@ img: assets/img/yolov-license-plate.png
 importance: 1
 category: work
 related_publications: false
-profile_date: 2024-03-10
+profile_date: 2025-01-27
 profile_importance: 1
 profile_summary: Combined a custom YOLOv5 detector with histogram-boosted preprocessing and ONNX OCR to read plates end-to-end.
 ---

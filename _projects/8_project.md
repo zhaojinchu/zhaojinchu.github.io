@@ -6,7 +6,7 @@ img: assets/img/body-measurement.png
 importance: 1
 category: work
 related_publications: false
-profile_date: 2023-12-05
+profile_date: 2023-03-02
 profile_importance: 1
 profile_summary: Engineered a preprocessing-to-inference pipeline that predicts measurement deltas and ships as a desktop app.
 ---

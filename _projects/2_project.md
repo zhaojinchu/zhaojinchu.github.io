@@ -6,8 +6,8 @@ img: assets/img/2.jpg
 importance: 2
 category: work
 related_publications: false
-profile_date: 2024-09-01
-profile_importance: 1
+profile_date: 2024-11-01
+profile_importance: 2
 profile_summary: Built Logic Labs curriculum and electronics kits, integrating the program into Dubai College's GCSE curriculum.
 ---
 
@@ -30,11 +30,24 @@ Logic Labs started as a passion project and grew into a turnkey hardware curricu
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2.2.png" title="Logic Labs curriculum overview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2.1.jpg" title="Online Course Title Page" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2.2.jpg" title="Course Layout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Prototype kit layout and portal screenshots used in the pilot program.
 </div>
 
-Next up: release a public kit run, plug analytics into the portal, and add microcontroller extension labs for students who master the basics early.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2.3.jpg" title="Assembling and Shipping Kits" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Assembling and Shipping Kits
+</div>
+
+
+Next up: release a public kit run and add microcontroller extension labs for students who master the basics early.

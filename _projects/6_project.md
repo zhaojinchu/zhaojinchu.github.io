@@ -6,7 +6,7 @@ img: assets/img/vanilla-lpr.png
 importance: 1
 category: work
 related_publications: false
-profile_date: 2024-04-15
+profile_date: 2025-10-1
 profile_importance: 1
 profile_summary: Prototyped CNN-based license plate localization with a bespoke preprocessing pipeline and mixed-precision training loops.
 ---

@@ -6,7 +6,7 @@ img: assets/img/2.png
 importance: 1
 category: work
 related_publications: false
-profile_date: 2024-11-30
+profile_date: 2025-10-3
 profile_importance: 1
 profile_summary: Built the Logic Labs e-commerce platform end-to-end with React, Supabase edge functions, and Stripe checkout running on an Oracle Cloud VM.
 ---
@@ -30,7 +30,7 @@ The online home for Logic Labs now lives at [http://139.185.57.202/](http://139.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logic-labs-dashboard.png" title="Logic Labs storefront" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/4.1.png" title="Logic Labs Storefront" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

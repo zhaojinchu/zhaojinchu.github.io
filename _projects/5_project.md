@@ -6,7 +6,7 @@ img: assets/img/musbook-dashboard.png
 importance: 1
 category: work
 related_publications: false
-profile_date: 2024-06-30
+profile_date: 2024-05-16
 profile_importance: 1
 profile_summary: Built a Django + Channels platform that handles scheduling, messaging, and automations for teachers and students.
 ---

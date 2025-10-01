@@ -30,7 +30,7 @@ Switcherooni started as a “what if I could flick the dorm lights from bed?” 
 
 **Control + future work**
 - Currently controlled via a barebones mobile BLE terminal—UI next on the list alongside scheduling and multi-device support.
-- Looking into swapping the Nano for an nRF52 and a proper Li-ion pack to push battery life into multi-week territory.
+- Looking into swapping the Nano for an nRF52 and a proper Li-ion pack to push battery life into multi week territory.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,7 +38,7 @@ Switcherooni started as a “what if I could flick the dorm lights from bed?” 
     </div>
 </div>
 <div class="caption">
-    Switcherooni Mk3 demo showing the BLE controlled throw.
+    Switcherooni Mk3 demo showing the BLE controlled thro (albeit failing).
 </div>
 
 <div class="row">
@@ -50,4 +50,4 @@ Switcherooni started as a “what if I could flick the dorm lights from bed?” 
     Final CAD assembly with servo bay, clamp, and adjustable horn.
 </div>
 
-Next up: design a slimline PCB to consolidate power management and BLE, then package the project for other lazy light-switch aficionados.
+Next up: design a PCB to consolidate power management and BLE, then package the project for other lazy light switch aficionados.
