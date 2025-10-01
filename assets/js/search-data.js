@@ -83,6 +83,11 @@ ninja.data = [{
           description: "An automatic light switch flicker, controlled over bluetooth",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-logic-labs-commerce-platform",
+          title: 'Logic Labs Commerce Platform',
+          description: "Full-stack storefront for Logic Labs STEM kits, powered by Supabase + Stripe and deployed on Oracle Cloud.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
