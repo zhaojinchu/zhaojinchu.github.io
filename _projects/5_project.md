@@ -11,7 +11,7 @@ profile_importance: 1
 profile_summary: Built a Django + Channels platform that handles scheduling, messaging, and automations for teachers and students.
 ---
 
-MusBook kept our music teaching collective organised for over a year: a full-stack platform I designed, coded, and operated with Django, Channels, Celery, and Tailwind. It handled scheduling, messaging, and reminders for dozens of weekly lessons before I sunset the deployment. Repo here: [github.com/zhaojinchu/MusBook](https://github.com/zhaojinchu/MusBook).
+MusBook kept music teaching organised: a full-stack platform I designed, coded, and operated with Django, Channels, Celery, and Tailwind. It handled scheduling, messaging, and reminders for dozens of weekly lessons before I sunset the deployment. Repo here: [github.com/zhaojinchu/MusBook](https://github.com/zhaojinchu/MusBook).
 
 **Platform experience**
 - Separate teacher/student dashboards with role-aware permissions, onboarding invites, and profile management.

@@ -2,7 +2,7 @@
 layout: page
 title: Vanilla License Plate CNN
 description: Research sandbox for lightweight PyTorch detectors localizing license plates with custom data tooling.
-img: assets/img/vanilla-lpr.png
+img: assets/img/6.png
 importance: 1
 category: work
 related_publications: false

@@ -34,7 +34,7 @@ The online home for Logic Labs now lives at [http://139.185.57.202/](http://139.
     </div>
 </div>
 <div class="caption">
-    Placeholder – swap in a production screenshot of the live storefront.
+    Home page of the logic labs e-commerce website. 
 </div>
 
 Next up: connect the vanity domain, add inventory dashboards, and ship a lightweight CMS so the team can update kits without touching code.

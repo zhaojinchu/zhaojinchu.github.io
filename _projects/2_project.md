@@ -2,7 +2,7 @@
 layout: page
 title: Logic Labs - Transistors to Logic Gates
 description: The first interative, hands-on hardware kit for high school students made by Logic Labs.
-img: assets/img/2.jpg
+img: assets/img/2.png
 importance: 2
 category: work
 related_publications: false
