@@ -37,4 +37,34 @@ MusBook kept music teaching organised: a full-stack platform I designed, coded, 
     Placeholder – swap in a real dashboard screenshot from the last production build.
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.1.png" title="Student Calendar Week View" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.3.png" title="Teacher Calendar Month View" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Calendar views for student and teacher users, sortable by week, day, or month views.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.2.png" title="Example Teacher Dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example of a teacher's dashboard. Day view + attendance check for convenience.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.4.png" title="Assignments View" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example of a Student's assignment view.
+</div>
+
 Next up: revive the deployment with a trimmed surface (lessons + messaging) and wire the roadmap items into the existing Celery job infrastructure.
