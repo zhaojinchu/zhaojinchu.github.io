@@ -2,7 +2,7 @@
 layout: page
 title: Logic Labs Commerce Platform
 description: Full-stack storefront for Logic Labs STEM kits, powered by Supabase + Stripe and deployed on Oracle Cloud.
-img: assets/img/2.png
+img: assets/img/4.png
 importance: 1
 category: work
 related_publications: false

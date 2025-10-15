@@ -2,7 +2,7 @@
 layout: page
 title: Body Measurement Predictor
 description: PyTorch regression model and Tkinter app forecasting physique changes after weight adjustments.
-img: assets/img/body-measurement.png
+img: assets/img/8.png
 importance: 1
 category: work
 related_publications: false
@@ -34,7 +34,7 @@ A machine learning playground that turned into a polished desktop tool: I built 
     </div>
 </div>
 <div class="caption">
-    Placeholder – capture the Tkinter app with a sample prediction once you rebuild the executable.
+    Placeholder
 </div>
 
 Next up: add confidence intervals around each prediction and expand the dataset to support additional demographics.

@@ -34,7 +34,7 @@ This repo is where I iterated on compact CNNs for license plate localisation—b
     </div>
 </div>
 <div class="caption">
-    Placeholder – drop in a training metrics chart or qualitative detection sample.
+    Placeholder
 </div>
 
 Next up: port the best-performing backbone into a multi-object detector and bolt on OCR so it can run alongside the YOLO pipeline.

@@ -2,7 +2,7 @@
 layout: page
 title: MusBook Teaching Platform
 description: Scheduling, messaging, and automation suite for music tuition teams built on Django + Channels.
-img: assets/img/musbook-dashboard.png
+img: assets/img/5.png
 importance: 1
 category: work
 related_publications: false
@@ -27,15 +27,6 @@ MusBook kept music teaching organised: a full-stack platform I designed, coded, 
 - Production stack ran behind Nginx with Daphne + Gunicorn + systemd units, backed by Redis for Channels and Celery.
 - Journald log pipelines and health check endpoints made it easy to debug deployments and monitor worker status.
 - Tailwind + django-browser-reload gave a fast feedback loop when iterating on dashboard UI and components.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/musbook-dashboard.png" title="MusBook dashboard" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Placeholder – swap in a real dashboard screenshot from the last production build.
-</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -2,7 +2,7 @@
 layout: page
 title: YOLOv5 License Plate Recognition
 description: End-to-end license plate detection and OCR pipeline powered by YOLOv5 and Fast Plate OCR.
-img: assets/img/yolov-license-plate.png
+img: assets/img/7.png
 importance: 1
 category: work
 related_publications: false
@@ -34,7 +34,7 @@ This project stitches detection, pre-processing, and OCR into a single script th
     </div>
 </div>
 <div class="caption">
-    Placeholder – replace with an annotated frame showcasing detection and OCR output.
+    Placeholder
 </div>
 
 Next up: wire the detector into a live video stream and benchmark latency with TensorRT for real-time edge deployments.
